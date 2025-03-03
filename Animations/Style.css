@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 10; /*iterate the animation on the specified count*/
+    animation-direction: alternate; /*animation direction*/
+    animation-play-state: running; /*animation state is active*/
+    animation-timing-function: linear; /*animation speed is constant*/
+    /*animation-timing-function: steps; /*create stop motino effect*/
+}
+img{
+    width: 250px;
+    height: 250px;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 10; /*iterate the animation on the specified count*/
+    animation-direction: alternate; /*animation direction*/
+    animation-play-state: running; /*animation state is active*/
+    animation-timing-function: linear; /*animation speed is constant*/
+}
+/*animation will only begin if you hover using mouse cursor, putting in box class however will start the animation as soon as you start the browser*/
+/*
+#box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+*/
+/*animatino only occurs when you hold or left click the element*/
+/*
+#box:active{
+    animation-name: glow;
+    animation-duration: 2s;
+}
+*/
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%)}
+}
+
+@keyframes slideUp{
+    from{transform: translateY(300%)}
+}
+
+@keyframes slideDown{
+    to{transform: translateY(300%)}
+}
+@keyframes rotateX{
+    100%{transform: rotateX(360deg);}
+}
+@keyframes rotateY{
+    100%{transform: rotateY(360deg);}
+}
+@keyframes rotateZ{
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes rotate25{
+    25%{transform: rotateZ(360deg);}
+}
+@keyframes grow{
+    50%{transform: scale(2, 2)}
+}
+
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes fade{
+    50%{opacity: 0;}
+}
+@keyframes fadeIn{
+    100%{opacity: 1;}
+}
+@keyframes colorChange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: blue;}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+    
+}

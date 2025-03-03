@@ -1,0 +1,17 @@
+@font-face {
+    src: url(Fonts/MajorMonoDisplay-Regular.ttf);
+    font-family: Major-Mono;
+}
+@font-face {
+    src: url(Fonts/Micro5-Regular.ttf);
+    font-family: Micro5;
+}
+h1{
+    font-family: Major-Mono;
+}
+p{
+    font-family: Micro5;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}

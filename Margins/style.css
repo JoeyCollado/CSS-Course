@@ -1,0 +1,19 @@
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: red;
+    margin-top: 50px;
+}
+#box2{
+    background-color: blue;
+    margin: 50px;
+}
+#box3{
+    background-color: green;
+    margin: auto;
+}

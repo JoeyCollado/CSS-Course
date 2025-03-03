@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+    /*transform: translateX(50px); /*translate element on x axis, will move to the right on 50 px*/
+    
+}
+#box1{
+    background-color: rgb(17, 190, 17); 
+}
+#box2{
+    background-color: rgb(172, 86, 0); 
+}
+#box3{
+    background-color: rgb(0, 76, 184); 
+}
+
+/* using images
+img{
+    transform: translateX(100%) rotateZ(180deg) scale(2);
+}
+*/

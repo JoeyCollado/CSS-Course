@@ -1,0 +1,14 @@
+h1{
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgba(118, 0, 0, 0.895);
+    border-radius: 20px;
+
+}
+P{
+    border-bottom: 3px solid rgba(175, 2, 2, 0.774);
+    border-top: 3px solid rgb(174, 174, 6);
+    border-left: 3px inset rgb(160, 106, 5);
+    border-right: 3px outset rgb(4, 89, 4);
+    border-radius: 3px;
+}

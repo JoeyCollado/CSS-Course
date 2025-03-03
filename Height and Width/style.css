@@ -1,0 +1,10 @@
+.box{
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
